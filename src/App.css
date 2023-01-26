@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Josefin+Sans:ital,wght@0,200;0,400;1,400&family=Rubik&family=Ubuntu:wght@300&family=Work+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}

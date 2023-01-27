@@ -1,0 +1,82 @@
+.navbar{
+    height: 8vh;
+    border-bottom:  2px solid rgba(172, 169, 169, 0.385);
+    padding: 1rem;
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+
+        .search{
+            display: flex;
+            border: 1px solid rgba(98, 95, 95, 0.582);
+            padding: 0.3rem 0.5rem;
+            border-radius: 5px;
+            
+
+
+
+            .icon{
+                width: 2rem;
+                height: 2rem;
+                color: grey;
+                cursor: pointer;
+            }
+
+            input{
+                outline: none;
+                border: none;
+                background: transparent;
+                width: 15vw;
+                font-size: 1.2rem;
+
+                &::placeholder{
+                    font-size: 1.2rem;
+                }
+
+
+            }
+
+        }
+        .items{
+            display: flex;
+            gap: 1.5rem;
+
+            .item{
+                display: flex;
+                align-items: center;
+                position: relative;
+
+                .color{
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    background:red;
+                    border-radius: 50%;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: bold;
+                    position: absolute;
+                    left: 1.1rem;
+                    top: 0;
+                }
+                .icon{
+                    height: 2rem;
+                    width: 2rem;
+                    cursor: pointer;
+
+                }
+
+                .panda{
+                    width: 3rem;
+                    height: 3rem;
+                    cursor: pointer;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

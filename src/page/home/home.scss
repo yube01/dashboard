@@ -3,5 +3,12 @@
     .container{
        
         flex: 6;
+
+        .widgets{
+            display: flex;
+            padding: 1rem 1.5rem;
+            justify-content: space-between;
+            gap: 2rem;
+        }
     }
 }

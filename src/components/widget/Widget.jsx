@@ -1,7 +1,8 @@
 import React from 'react'
 import "./widget.scss"
 import User from "../../assets/user.png"
-import Down from "../../assets/down.png"
+//import Down from "../../assets/down.png"
+import up from "../../assets/up.png"
 import Cart from "../../assets/order.png"
 import Wallet from "../../assets/wallet.png"
 import Dollor from "../../assets/dollor.png"
@@ -75,7 +76,7 @@ const Widget = ({type}) => {
         </div>
         <div className="right">
             <div className="percent positive">
-                <img src={Down} alt=""  className='icons'/>
+                <img src={up} alt=""  className='icons'/>
                 {diff} %
             </div>
             {data.icon}
